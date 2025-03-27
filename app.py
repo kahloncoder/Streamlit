@@ -1,5 +1,5 @@
 import streamlit as st
-import google.generativeai as genai # Keep genai import if you might use its specific features later, otherwise optional
+#import google.generativeai as genai # Keep genai import if you might use its specific features later, otherwise optional
 from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
